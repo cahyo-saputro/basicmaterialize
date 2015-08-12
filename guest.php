@@ -1,5 +1,5 @@
 		<div class="container">
-			<img class="responsive-img materialboxed" src="image/slide4">
+			<img class="responsive-img materialboxed" src="image/banner" width="100%">
 		</div>
 			<div class="row white">
 				<div class="container">				
