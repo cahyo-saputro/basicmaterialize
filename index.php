@@ -15,14 +15,19 @@
 		<!-- import jQUery before materialize-->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			    $(".button-collapse").sideNav();
+  			});
+		</script>
 		<div class="row blue-grey lighten-1">
-			<div class="col s2 offset-s10">
+			<div class="col s2 m3 offset-s6 offset-m9">
 					<ul id="dropdown2" class="dropdown-content">
 						<li><a href="#!" class="blue-grey-text">notification<span class="new badge blue-grey darken-2">7</span></a></li>
 						<li><a href="#!" class="blue-grey-text">edit profile<span class="badge">1</span></a></li>
 						<li><a href="#!" class="blue-grey-text">sign out</a></li>					
 					</ul>
-					<a class="btn dropdown-button blue-grey lighten-4 black-text" href="#!" data-activates="dropdown2">Member<i class="mdi-navigation-arrow-drop-down right"></i></a>
+					<a class="btn dropdown-button blue-grey lighten-1 black-text z-depth-0" href="#!" data-activates="dropdown2">Member<i class="mdi-navigation-arrow-drop-down right"></i></a>
 			</div>
 		</div>		
 		<div class="container">		
@@ -38,7 +43,7 @@
 			<div class="row">
 				<nav>
 					<div class="nav-wrapper blue-grey darken-3">
-						<a href="#" data-active="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 						<ul class="left hide-on-med-and-down">
 							<li><a href="?page=home">Home</a></li>
 							<li><a href="?page=product">Product</a></li>

@@ -94,6 +94,16 @@
 										<td>lollipop chair</td>
 										<td>$ 1.10</td>
 									</tr>
+									<tr>
+										<td>6</td>
+										<td>Sweet Table</td>
+										<td>$ 2.12</td>
+									</tr>
+									<tr>
+										<td>7</td>
+										<td>Handmade Desk</td>
+										<td>$ 0.90</td>
+									</tr>
 								</tbody>								
 							</table>					
 						</div>					

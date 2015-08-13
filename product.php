@@ -1,5 +1,5 @@
 <div class="container">
-	<h4 class="align-center">Cara Berbelanja</h4>
+	<h4 class="center-align">Cara Berbelanja</h4>
 
 	<ul class="collapsible popout" data-collapsible="accordion">
 		<li>
